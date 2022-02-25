@@ -1,0 +1,149 @@
+/* Slytherin Stylesheet  */
+
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Italianno&family=Permanent+Marker&display=swap');
+
+/* Heading Setups */
+h1 {
+    font-family: 'Fredericka the Great', cursive;
+    color: green;
+    background-color: rgb(192, 192, 192,0.5);
+    font-size: 100px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-align: center;
+    padding: 0px;
+    margin: 0px 100px 0px;
+}
+h3 {
+    color:greenyellow;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 42px;
+    text-align: center;
+}
+h4 {
+    color: silver;
+    font-family: 'Italianno', cursive;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: 60px;
+    padding: 150px 75px 0px;
+    margin: 5px;
+}
+p {
+    font-size: 20px;
+}
+
+
+/* ID Setups */
+#homebg {
+    background-image: url(images/bg-home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#membersbg {
+    background-image: url(images/bg-members.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#whyjoinbg {
+    /* background-image: url(images/bg-why.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; */
+    background-color: darkgreen;
+}
+#hiddenbg {
+    background-color:blue;
+}
+
+#disclaimertext {
+    color: silver;
+    text-align: center;
+}
+
+
+/* Class Setups */
+
+.menubar {
+    display: flex;
+    padding: 10px 0px 0px;
+    background-color: rgb(192, 192, 192,0.5);
+    color: darkgreen;
+    justify-content: space-evenly;
+}
+
+.bigtext {
+    font-size: 25px;
+    text-align: center;
+}
+
+.biggertext {
+    font-size: 30px;
+    text-align: center;
+}
+
+.blkgrn {
+    background-color: rgba(0,0,0,0.5);
+    color:greenyellow
+}
+
+.whystyling {
+    color: silver;
+    padding: 25px;
+    margin: 25px;
+}
+
+.textspacing {
+    box-sizing: border-box;
+    border-style: double;
+    border-width: 2px;
+    padding: 25px;
+    margin: 50px;
+    color: silver;
+}
+
+
+.crestalign {
+    display: flex;
+    justify-content: center;
+}
+
+.portraitalign {
+    display: flex;
+}
+
+
+.hiddenpageintro {
+    font-family: 'Italianno', cursive;
+    font-size: 45px;
+    box-sizing: border-box;
+    border-style: double;
+    border-width: 2px;
+    padding: 25px;
+    margin: 50px;
+    color: yellow;
+}
+
+.hiddenpagetext {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 25px;
+    color:blue;
+    text-align: center;
+    margin: 0px 50px 0px;
+}
+
+.logoalign {
+    display: flex;
+    box-sizing: border-box;
+    border-style: double;
+    border-width: 3px;
+    margin: 10px 150px 10px;
+    padding: 10px;
+    background-color: white;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
